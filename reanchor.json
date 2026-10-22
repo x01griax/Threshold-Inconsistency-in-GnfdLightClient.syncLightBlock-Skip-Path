@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "rpc": "https://bsc-dataseed.bnbchain.org",
+  "blockNumber": 129184839,
+  "blockHash": "0xe8b7159e4af8623af23699ba0e4cd8d8e29dd242e14602c299c90a803f13d2fc",
+  "blockTimestamp": 1792696805,
+  "network": "BSC mainnet (chainId 56)"
+ },
+ "contracts": {
+  "CrossChain": {
+   "proxy": "0x77e719b714be09F70D484AB81F70D02B0E182f7d",
+   "proxyCodeSha256": "10e59e8f227f2872b3361523e704a04dd4f8f7dbeb1011c5ee2af3f13746afe3",
+   "proxyCodeLen": 2206,
+   "eip1967Impl": "0xde20f2ec19ed41d61458ceb7d1c5f7ee02285556",
+   "implCodeSha256": "546d15de665dc57b835495cfaf8ee562fb09b48fca956c631d57ad4318e2a464",
+   "implCodeLen": 20044,
+   "implMatchesStage1Testdata": true
+  },
+  "GnfdLightClient": {
+   "proxy": "0x433bB48Bd86c089375e53b2E2873A9C4bC0e986B",
+   "proxyCodeSha256": "10e59e8f227f2872b3361523e704a04dd4f8f7dbeb1011c5ee2af3f13746afe3",
+   "proxyCodeLen": 2206,
+   "eip1967Impl": "0x5437783e736382bf4ed8136dcfa13fc3ef5660df",
+   "implCodeSha256": "839589ee28749e5a175a6dfd70a59bf074c6fee27373144e4db22233f43a2c98",
+   "implCodeLen": 10796,
+   "implMatchesStage1Testdata": true
+  },
+  "TokenHub": {
+   "proxy": "0xeA97dF87E6c7F68C9f95A69dA79E19B834823F25",
+   "proxyCodeSha256": "10e59e8f227f2872b3361523e704a04dd4f8f7dbeb1011c5ee2af3f13746afe3",
+   "proxyCodeLen": 2206,
+   "eip1967Impl": "0xac2936ba03f46a6a03ba2245e45e61e1c4ecb22f",
+   "implCodeSha256": "e6d26acaa8007989c2ef97d7d1a03b1410b090a3a5d2aaee2d1d656febcd0e56",
+   "implCodeLen": 9893,
+   "implMatchesStage1Testdata": true
+  },
+  "RelayerHub": {
+   "proxy": "0x31C477F05CE58bB81A9FB4b8c00560f1cBe185d1",
+   "proxyCodeSha256": "10e59e8f227f2872b3361523e704a04dd4f8f7dbeb1011c5ee2af3f13746afe3",
+   "proxyCodeLen": 2206,
+   "eip1967Impl": "0x00ea54a82ae011dabfa91811912e66f7be69eb59",
+   "implCodeSha256": "1241624f1e3149f9ea83c032e8c737731a3bf107660cce0eefc707487a849d7a",
+   "implCodeLen": 2923,
+   "implMatchesStage1Testdata": true
+  },
+  "GovHub": {
+   "proxy": "0x1c9766EbcA1f38A06A04947129B394bF7FEc4599",
+   "proxyCodeSha256": "10e59e8f227f2872b3361523e704a04dd4f8f7dbeb1011c5ee2af3f13746afe3",
+   "proxyCodeLen": 2206,
+   "eip1967Impl": "0xacc4387e4279a4e6c0647e1f47dc67c258134310",
+   "implCodeSha256": "0702fd8287bf3f6566e29f1cedc17c3d91334e0119a026722f4ab6e543c7aeae",
+   "implCodeLen": 6495,
+   "implMatchesStage1Testdata": true
+  }
+ },
+ "lightClient": {
+  "gnfdHeight": "0x00000000000000000000000000000000000000000000000000000000024365b9",
+  "chainID": "0x677265656e6669656c645f313031372d31000000000000000000000000000000",
+  "nextValidatorSetHash": "0xc24518cffa8d176120f28e7195f46282e296844be2e10b860e1d345fe892ce6f",
+  "inTurnRelayerRelayInterval": "0x0000000000000000000000000000000000000000000000000000000000000258",
+  "inTurnRelayerValidityPeriod": "0x000000000000000000000000000000000000000000000000000000000000001e",
+  "consensusStateBytes": "0x677265656e6669656c645f313031372d3100000000000000000000000000000000000000024365b9c24518cffa8d176120f28e7195f46282e296844be2e10b860e1d345fe892ce6fe139c29f889cce200de9e073b242c7c240e9b45f1ba92be8ca815b8345f17f1600000000000003e8e144b8627860d3415e413270f02707ca632dc443a932ac99412f035226dc0748f324364dac615d8022dcde79b8e4b5413e9555e0b3e6d09916f41d0c77a9760c9f786e364d5ee37c2b16b5cf24a1cc48e89103d29f204a09173e9ddc87842fd01aea69c700000000000003e8a800cd1039cef2817913f8b6a6ae5aeeb94f7291b5d44f5f9b764bee50d650785f34ef1698eec336f9a6b3697a073feb7549bacc69c02a5bba55dfab1b7d71da1611dccfb8af4a2db9baf7f9e219a370d535f211677d4d7fee75c88bd51ec1e69fd50fac00000000000003e8c36db5f165b6870cf6dd1a3569f9f17ed83a27e58d0e78ffda6c0d9d9265f338ffa1550aa57c43aeca8271d298c8a70f5d05ccc4a78205f096b1192ff65601afb06d28c3acb5a8f4c2a3a87405124c86470e6bf0428da0d6a18e026bb81a01491abefc4100000000000003e8406b23e5b9cb00423db2b636bfa51b1cce1e482ea20d2705cf85329fd67888e4dbfd92ae26b7d241e82524f0fc932f7d0621809302a05e1aad4e3207b6567e8b48e984b8",
+  "validatorSet": [
+   {
+    "pubKey": "0xe139c29f889cce200de9e073b242c7c240e9b45f1ba92be8ca815b8345f17f16",
+    "votingPower": 1000,
+    "relayerAddress": "0xe144b8627860d3415e413270f02707ca632dc443",
+    "relayerBlsKey": "0xa932ac99412f035226dc0748f324364dac615d8022dcde79b8e4b5413e9555e0b3e6d09916f41d0c77a9760c9f786e36",
+    "isRelayer": true
+   },
+   {
+    "pubKey": "0x4d5ee37c2b16b5cf24a1cc48e89103d29f204a09173e9ddc87842fd01aea69c7",
+    "votingPower": 1000,
+    "relayerAddress": "0xa800cd1039cef2817913f8b6a6ae5aeeb94f7291",
+    "relayerBlsKey": "0xb5d44f5f9b764bee50d650785f34ef1698eec336f9a6b3697a073feb7549bacc69c02a5bba55dfab1b7d71da1611dccf",
+    "isRelayer": true
+   },
+   {
+    "pubKey": "0xb8af4a2db9baf7f9e219a370d535f211677d4d7fee75c88bd51ec1e69fd50fac",
+    "votingPower": 1000,
+    "relayerAddress": "0xc36db5f165b6870cf6dd1a3569f9f17ed83a27e5",
+    "relayerBlsKey": "0x8d0e78ffda6c0d9d9265f338ffa1550aa57c43aeca8271d298c8a70f5d05ccc4a78205f096b1192ff65601afb06d28c3",
+    "isRelayer": true
+   },
+   {
+    "pubKey": "0xacb5a8f4c2a3a87405124c86470e6bf0428da0d6a18e026bb81a01491abefc41",
+    "votingPower": 1000,
+    "relayerAddress": "0x406b23e5b9cb00423db2b636bfa51b1cce1e482e",
+    "relayerBlsKey": "0xa20d2705cf85329fd67888e4dbfd92ae26b7d241e82524f0fc932f7d0621809302a05e1aad4e3207b6567e8b48e984b8",
+    "isRelayer": true
+   }
+  ]
+ },
+ "crossChain": {
+  "gnfdChainId": 1017,
+  "isSuspended": false,
+  "relayFee": "6000000000000",
+  "channelHandlerMap[1]": "0xea97df87e6c7f68c9f95a69da79e19b834823f25",
+  "channelReceiveSequenceMap[1]": "2051",
+  "channelHandlerMap[2]": "0xea97df87e6c7f68c9f95a69da79e19b834823f25",
+  "channelHandlerMap[3]": "0x1c9766ebca1f38a06a04947129b394bf7fec4599",
+  "channelReceiveSequenceMap[3]": "18",
+  "channelHandlerMap[4]": "0xe909754263572f71bc6afac837646a93f5818573",
+  "channelReceiveSequenceMap[4]": "1667",
+  "channelHandlerMap[5]": "0x634eb9c438b8378bbdd8d0e10970ec88db0b4d0f",
+  "channelReceiveSequenceMap[5]": "9",
+  "channelHandlerMap[6]": "0xdd9af4573d64324125fca5ce13407be79331b7f7",
+  "channelReceiveSequenceMap[6]": "250",
+  "channelHandlerMap[7]": "0xe1776006dbe9b60d9ea38c0ddb80b41f2657ace8",
+  "channelReceiveSequenceMap[7]": "1254",
+  "channelHandlerMap[8]": "0x26204702935e2d617ee75b795152b9623a7d9809",
+  "channelReceiveSequenceMap[8]": "6",
+  "channelHandlerMap[9]": "0xfa39d9111d927836b14d071d43e0aad9ce83bbbf"
+ },
+ "tokenHub": {
+  "balanceWei": "10748495760067211401699",
+  "balanceWeiHex": "0x246ad57e9cf566599e3",
+  "largeTransferLimit": "1000000000000000000000",
+  "lockPeriod": "43200"
+ },
+ "lightClientSlotProbes": {
+  "51": "0x677265656e6669656c645f313031372d31000000000000000000000000000000",
+  "52": "0x00000000000000000000000000000000000000000000000000000000024365b9",
+  "53": "0xc24518cffa8d176120f28e7195f46282e296844be2e10b860e1d345fe892ce6f",
+  "54": "0x00000000000000000000000000000000000000000000000000000000000003f1",
+  "55": "0x0000000000000000000000000000000000000000000000000000000000000258",
+  "56": "0x000000000000000000000000000000000000000000000000000000000000001e",
+  "57": "0x0000000000000000000000000000000000000000000000000000000000000004"
+ }
+}

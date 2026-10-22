@@ -1,0 +1,14 @@
+=== RUN   TestP5S2_GFV1_GoOracle
+    p5s2_oracle_test.go:341: collusion patch installed: validators 0/1 -> colluder keys (50% of voting power)
+    p5s2_oracle_test.go:352: 0x67 probe noCollusion(realSet)         ok=false ret= err=invalid commit -- insufficient voting power: got 0, needed more than 1333
+    p5s2_oracle_test.go:352: 0x67 probe adjacent(patchedSet)         ok=false ret= err=validators hash mismatch, expected: ¬Eœ˙ça ÚéqïÙbÇ‚ñÑK‚·Ü4_ËíŒo, real: 8E510BD9983C7EAA95BD91A48150BC68B74A48D9754076AAB002F93AA059F606
+    p5s2_oracle_test.go:352: 0x67 probe singleColluder(25% power)    ok=false ret= err=invalid commit -- insufficient voting power: got 1000, needed more than 1333
+    p5s2_oracle_test.go:352: 0x67 probe MAIN(patchedSet,skip)        ok=true ret=01000000000000000000000000000000000000000000000000000000000001f8677265656e6669656c645f313031372d3100000000000000000000000000000000000000024365bb8e510bd9983c7eaa95bd91a48150bc68b74a48d9754076aab002f93aa059f60668dc3fe1c5ca483184977184c0e8412338bbf2eea9ee48eb62537f3aafd6c29c00000000000003e86601000000000000000000000000000000000001aafbcf4169b2a7ce6fe4ee4f032533d0c9fb85f7209b444f972daf010ee83e0ed69f52cddcb036c9030e0a69ec4720fff15a4ec86b4fcaf44e27c1c99277c10e9da630dc895fb7f9a4ecc36da7b280a100000000000003e86602000000000000000000000000000000000002b485d3aff6b7a6adaf293833683a7e4faee3632e02001fbcd6849a7bf263cbf271c20f70b90bfa6c1e1962f120a4f502858620a855f76de789140bd749d65a33a263f857add85a6424bdcb4a4774052a00000000000003e866030000000000000000000000000000000000038b0aed989d8c40f8a18090e3c2067104cb909dfc96022935903f354a604ab4240bf55fe60d1a4260d4ee0b07e3da64dcc92bec23faa5a49c1d38cd3168c581b0a517ac24a736aecddea60aac3103f41300000000000003e86604000000000000000000000000000000000004898f413eba1740eb6d77ebe877a879c8ceafe3bc12de7002e107ec5b1b9dd69e94199cc18d2a6b5d40c03abac787aa77 err=<nil>
+    p5s2_oracle_test.go:390: MAIN 0x67 output matches the generator's expected new consensus state (504 bytes cs)
+    p5s2_oracle_test.go:437: 0x66 probe package 1: verified (ret=01)
+    p5s2_oracle_test.go:437: 0x66 probe package 2: verified (ret=01)
+    p5s2_oracle_test.go:501: wrote /home/z/my-project/download/bnb_submission_gfv1_final/oracle_output.json
+    p5s2_oracle_test.go:502: ORACLE COMPLETE: takeover at H0+2 with 50% power, drain 10748494735067211401699 wei, TokenHub residual 975000000000000 wei
+--- PASS: TestP5S2_GFV1_GoOracle (0.01s)
+PASS
+ok  	github.com/ethereum/go-ethereum/consensus/parlia	2.158s
